@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { removeEmployeesh } from '../reduxToolkit/slice'
 
 const ShowEmployees = () => {
-  const empdata=useSelector((data)=>data.employees)
+  const empdata=useSelector((data)=>data.employeeData.employees)
   const dispatch=useDispatch();
   // console.log(empdata);
   

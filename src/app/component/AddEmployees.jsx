@@ -11,7 +11,10 @@ function handleSubmit(e) {
 }
 const AddEmployees = () => {
     const [names, setNames] = useState('')
+
     const dispatch = useDispatch();
+    
+    
     const dataDispatch = () => {
         console.log(names);
         if(!names) return;
